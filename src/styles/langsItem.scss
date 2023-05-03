@@ -1,0 +1,11 @@
+.item {
+    height: 70px;
+    width: 50px;
+    background: #5b5b5b;
+    margin: 0 5px;
+
+    &__img {
+        width: 50px;
+        height: 50px;
+    }
+}
