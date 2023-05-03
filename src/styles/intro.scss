@@ -1,0 +1,14 @@
+.intro {
+    background-image: url('https://www.digitaltrends.com/wp-content/uploads/2018/10/red-dead-redemption-2-review-29874.jpg?p=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    min-height: 600px;
+    padding: 0 50px;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
