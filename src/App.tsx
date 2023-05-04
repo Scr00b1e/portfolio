@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Intro from "./components/Intro"
 import LangsItem from "./components/LangsItem"
@@ -42,6 +43,7 @@ function App() {
         </section>
 
       </div>
+      <Footer />
     </div>
   )
 }
