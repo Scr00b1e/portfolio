@@ -35,3 +35,14 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+//components
+.view {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 10px;
+
+    background: #00000014;
+    border-radius: 10px;
+}

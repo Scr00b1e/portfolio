@@ -22,7 +22,7 @@ function App() {
           </section>
 
           <section>
-            <div>
+            <div className="view">
               <h1>Languages</h1>
               <div className="flex">
                 {
@@ -32,8 +32,15 @@ function App() {
                 }
               </div>
             </div>
-            <div>
-              experience stuff
+            <div className="view flex">
+              <div>
+                <h1>1+</h1>
+                <p>experience</p>
+              </div>
+              <div>
+                <h1>10</h1>
+                <p>projects</p>
+              </div>
             </div>
           </section>
 
