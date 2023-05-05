@@ -44,17 +44,30 @@ function App() {
             </div>
           </section>
 
-          <section>
-            projs
+          <section className="projects">
+            <h1>Projects</h1>
+            <div className="flex">
+              {
+                languages.map((obj, i) => (
+                  <LangsItem {...obj} key={i} />
+                ))
+              }
+            </div>
+            <button>See more</button>
           </section>
 
-          <section>
-            contact me bruh
+          <section className="view">
+            <h1>Text me</h1>
+            <div className="flex flex__column">
+              <input type="text" placeholder="Email" />
+              <textarea name="" placeholder="Message"></textarea>
+              <button>Send</button>
+            </div>
           </section>
 
         </div>
-        <Footer />
       </div>
+      <Footer />
     </>
   )
 }
