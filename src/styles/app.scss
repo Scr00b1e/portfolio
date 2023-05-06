@@ -43,11 +43,19 @@ body {
     &__between {
         justify-content: space-between;
     }
+
+    &__wrap {
+        flex-wrap: wrap;
+    }
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px rgba(#000, .4);
 }
 
 //components

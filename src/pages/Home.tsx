@@ -2,6 +2,8 @@ import React from 'react'
 import Intro from "../components/Intro"
 import LangsItem from "../components/LangsItem"
 import { languages } from "../data/languages"
+import { projects } from '../data/projects'
+import ProjItem from '../components/ProjItem'
 
 const Home: React.FC = () => {
     return (
@@ -16,7 +18,7 @@ const Home: React.FC = () => {
             </section>
 
             <section>
-                <div className="view">
+                <div className="view shadow">
                     <h1>Languages</h1>
                     <div className="flex">
                         {
@@ -26,7 +28,7 @@ const Home: React.FC = () => {
                         }
                     </div>
                 </div>
-                <div className="view flex">
+                <div className="view flex shadow">
                     <div>
                         <h1>1+</h1>
                         <p>experience</p>
@@ -40,17 +42,17 @@ const Home: React.FC = () => {
 
             <section className="projects">
                 <h1>Projects</h1>
-                <div className="flex">
+                <div className="flex flex__wrap">
                     {
-                        languages.map((obj, i) => (
-                            <LangsItem {...obj} key={i} />
+                        projects.map((obj, i) => (
+                            <ProjItem {...obj} key={i} />
                         ))
                     }
                 </div>
                 <button>See more</button>
             </section>
 
-            <section className="view">
+            <section className="view shadow">
                 <h1>Text me</h1>
                 <div className="flex flex__column">
                     <input type="text" placeholder="Email" />
