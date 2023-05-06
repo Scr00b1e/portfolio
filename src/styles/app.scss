@@ -3,7 +3,7 @@
 *::before {
     margin: 0;
     padding: 0;
-    z-index: 1000;
+    box-sizing: border-box;
 }
 
 body {
@@ -38,6 +38,10 @@ body {
 
     &__column {
         flex-direction: column;
+    }
+
+    &__between {
+        justify-content: space-between;
     }
 }
 
