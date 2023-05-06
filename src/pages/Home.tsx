@@ -10,7 +10,7 @@ const Home: React.FC = () => {
         <>
             <Intro />
 
-            <section>
+            <section className='words shadow'>
                 <div>
                     <h1>Sup, how ya doin</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, iste magnam animi vitae vero minus deserunt aperiam repellendus, ipsum id modi doloribus voluptatem ratione assumenda, earum asperiores tenetur fugiat esse.</p>
