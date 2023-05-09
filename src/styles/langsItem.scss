@@ -1,8 +1,13 @@
 .item {
-    height: 70px;
-    width: 50px;
-    background: #5b5b5b;
-    margin: 0 5px;
+    height: 100px;
+    width: 100px;
+
+    margin: 10px 5px;
+    padding: 10px;
+    text-align: center;
+
+    background: rgba(#5b5b5b, .3);
+    border-radius: 10px;
 
     &__img {
         width: 50px;
