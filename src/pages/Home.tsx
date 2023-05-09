@@ -53,12 +53,12 @@ const Home: React.FC = () => {
             </section>
 
             <section className="view shadow">
-                <h1>Text me</h1>
-                <div className="flex flex__column">
-                    <input type="text" placeholder="Email" />
-                    <textarea name="" placeholder="Message"></textarea>
+                <h1 className='txtCenter'>Text me</h1>
+                <form className="flex flex__column">
+                    <input type="text" placeholder="Email" className='input' />
+                    <textarea name="" placeholder="Message" className='input'></textarea>
                     <button className='btn'>Send</button>
-                </div>
+                </form>
             </section>
 
         </>
