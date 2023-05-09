@@ -11,6 +11,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     overflow-x: hidden;
+    background: rgba(#243f77, .7);
 }
 
 // .container {
@@ -84,7 +85,7 @@ a {
     margin: 20px auto;
     padding: 10px;
 
-    background: #00000014;
+    background: rgba(#fff, .2);
     border-radius: 10px;
 }
 
@@ -92,7 +93,7 @@ a {
     width: 100%;
     margin: 50px 0;
     padding: 20px 10px;
-    background: #b3c7f6;
+    background: rgba(#b3c7f6, .4);
     border-radius: 10px;
 }
 
@@ -101,7 +102,7 @@ a {
     margin: 10px 0;
     padding: 10px;
 
-    background: #00000014;
+    background: rgba(#fff, .2);
     border-radius: 10px;
 }
 
