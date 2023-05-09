@@ -59,6 +59,23 @@ a {
     color: inherit;
 }
 
+.rotate {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+
+    /* IE */
+    -ms-transform: rotate(90deg);
+
+    /* Opera */
+    -o-transform: rotate(90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
 .shadow {
     box-shadow: 5px 5px 10px rgba(#000, .4);
 }
