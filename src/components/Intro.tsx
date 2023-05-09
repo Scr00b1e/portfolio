@@ -7,7 +7,7 @@ const Intro: React.FC = () => {
             <h1>Hi! I'm Jack,</h1>
             <h1>a.k.a Scr00b1e</h1>
             {/* <p>Junior Front-end developer</p> */}
-            <button>Some Button</button>
+            <button className='btn'>Some Button</button>
         </div>
     )
 }

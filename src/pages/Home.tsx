@@ -49,7 +49,7 @@ const Home: React.FC = () => {
                         ))
                     }
                 </div>
-                <button>See more</button>
+                <button className='btn'>See more</button>
             </section>
 
             <section className="view shadow">
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
                 <div className="flex flex__column">
                     <input type="text" placeholder="Email" />
                     <textarea name="" placeholder="Message"></textarea>
-                    <button>Send</button>
+                    <button className='btn'>Send</button>
                 </div>
             </section>
 

@@ -58,6 +58,25 @@ a {
     box-shadow: 5px 5px 10px rgba(#000, .4);
 }
 
+.btn {
+    padding: 5px 10px;
+    margin: 5px 0;
+
+    background: rgba(#fff, .3);
+    border: 1px #000 solid;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: all .3 ease-in-out;
+
+    &:hover {
+        background: #fff;
+    }
+}
+
 //components
 .view {
     width: 100%;

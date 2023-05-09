@@ -13,7 +13,7 @@ const ProjItem: React.FC<ProjProps> = ({ name, body, link }) => {
             <h1>{name}</h1>
             <p>{body}</p>
             <a href={link} target='_blank'>
-                <button>Visit</button>
+                <button className='btn'>Visit</button>
             </a>
         </div>
     )
