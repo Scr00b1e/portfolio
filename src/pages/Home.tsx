@@ -4,6 +4,7 @@ import LangsItem from "../components/LangsItem"
 import { languages } from "../data/languages"
 import { projects } from '../data/projects'
 import ProjItem from '../components/ProjItem'
+import { Link } from 'react-router-dom'
 
 const Home: React.FC = () => {
     return (
@@ -40,7 +41,7 @@ const Home: React.FC = () => {
                 </div>
             </section>
 
-            <section className="projects">
+            <section className="projects txtCenter">
                 <h1>Projects</h1>
                 <div className="flex flex__wrap">
                     {
@@ -49,7 +50,9 @@ const Home: React.FC = () => {
                         ))
                     }
                 </div>
-                <button className='btn'>See more</button>
+                <Link to={'/projects'}>
+                    <button className='btn'>See more</button>
+                </Link>
             </section>
 
             <section className="view shadow">
