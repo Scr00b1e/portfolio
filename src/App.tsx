@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Sidebar from "./components/Sidebar"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
+import Blog from "./pages/Blog"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </div>
       </div>

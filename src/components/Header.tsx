@@ -7,12 +7,15 @@ const Header: React.FC = () => {
         <div className='header flex flex__between'>
             <div>
                 <Link to={'/'}>
-                    Scr00b1e
+                    <h1 className='header__title'>Scr00b1e</h1>
                 </Link>
             </div>
-            <div>
+            <div className='flex flex__between'>
+                <Link to={'/blog'}>
+                    <h1 className='header__title'>Blog</h1>
+                </Link>
                 <Link to={'/projects'}>
-                    Projects
+                    <h1 className='header__title'>Projects</h1>
                 </Link>
             </div>
         </div>
