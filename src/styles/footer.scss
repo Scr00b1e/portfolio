@@ -2,4 +2,10 @@
     width: 100%;
     padding: 10px 20px;
     background: #00000055;
+
+    &__text {
+        color: #fff;
+        margin: 10px 0;
+        font-weight: 500;
+    }
 }
