@@ -111,6 +111,14 @@ a {
     font-size: 16px;
     border-radius: 15px;
     border: 1px #fff solid;
+
+    &__area {
+        max-width: 300px;
+        min-width: 300px;
+        max-height: 100px;
+        min-height: 100px;
+        outline: none;
+    }
 }
 
 //components

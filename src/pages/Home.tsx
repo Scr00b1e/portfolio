@@ -58,8 +58,9 @@ const Home: React.FC = () => {
             <section className="view shadow">
                 <h1 className='txtCenter'>Text me</h1>
                 <form className="flex flex__column">
+                    <input type="text" placeholder="Name" className='input' />
                     <input type="text" placeholder="Email" className='input' />
-                    <textarea name="" placeholder="Message" className='input'></textarea>
+                    <textarea name="" placeholder="Message" className='input input__area'></textarea>
                     <button className='btn'>Send</button>
                 </form>
             </section>
