@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
-import Sidebar from "./components/Sidebar"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import Blog from "./pages/Blog"
@@ -9,7 +8,7 @@ import Blog from "./pages/Blog"
 function App() {
   return (
     <>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <div className="mini-container">
         <Header />
         <div className="main">
