@@ -1,8 +1,8 @@
 import React from 'react'
-import { projects } from '../data/projects'
 import ProjItem from '../components/ProjItem'
 import { Link } from 'react-router-dom'
 import '../styles/projects.scss'
+import { projectFull } from '../data/projectsFull'
 
 const Projects: React.FC = () => {
     return (
@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
             <h1>Projects</h1>
             <div className="flex flex__wrap">
                 {
-                    projects.map((obj, i) => (
+                    projectFull.map((obj, i) => (
                         <ProjItem {...obj} key={i} />
                     ))
                 }
