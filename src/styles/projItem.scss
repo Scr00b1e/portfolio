@@ -30,6 +30,14 @@
         border-radius: 10px;
     }
 
+    &__btn {
+        margin: 10px 0 0;
+
+        button {
+            margin: 0 3px;
+        }
+    }
+
     p {
         max-width: 200px;
     }
