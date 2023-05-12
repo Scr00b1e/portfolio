@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
                         <img src="https://cdn-icons-png.flaticon.com/512/3669/3669691.png" alt=""
                             className='footer__img' />
                     </a>
-                    <a href="https://t.me/scr00b1e">
+                    <a href="https://t.me/scr00b1e" target='_blank'>
                         <img src="https://cdn-icons-png.flaticon.com/512/5968/5968940.png" alt="" className='footer__img' />
                     </a>
                 </div>
