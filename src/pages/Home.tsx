@@ -13,8 +13,8 @@ const Home: React.FC = () => {
 
             <section className='words shadow'>
                 <div>
-                    <h1>Sup, how ya doin</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, iste magnam animi vitae vero minus deserunt aperiam repellendus, ipsum id modi doloribus voluptatem ratione assumenda, earum asperiores tenetur fugiat esse.</p>
+                    <h1>Young adventure seeker</h1>
+                    <p>I'm just enjoy to work with frontend. So i'm good in React, Vue and Next.js. I also know how to work with tailwindcss. I always trynna increase my knowledge and would love to work with new technologies, stacks etc.</p>
                 </div>
             </section>
 
