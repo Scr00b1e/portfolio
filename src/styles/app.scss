@@ -151,11 +151,16 @@ a {
 
 .info-item {
     text-align: center;
+    height: 90px;
     margin: 0 10px;
     padding: 10px;
 
     background: rgba(#5b5b5b, .3);
     border-radius: 10px;
+
+    p {
+        line-height: 1;
+    }
 }
 
 .blog {

@@ -33,10 +33,12 @@ const Home: React.FC = () => {
                 <div className="view flex shadow">
                     <div className='info-item'>
                         <h1>1+</h1>
+                        <p>year</p>
                         <p>experience</p>
                     </div>
                     <div className='info-item'>
                         <h1>10+</h1>
+                        <p>made</p>
                         <p>projects</p>
                     </div>
                 </div>
