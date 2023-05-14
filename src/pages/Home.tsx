@@ -5,6 +5,7 @@ import { languages } from "../data/languages"
 import { projects } from '../data/projects'
 import ProjItem from '../components/ProjItem'
 import { Link } from 'react-router-dom'
+import TextMe from '../components/TextMe'
 
 const Home: React.FC = () => {
     return (
@@ -55,15 +56,7 @@ const Home: React.FC = () => {
                 </Link>
             </section>
 
-            <section className="view shadow">
-                <h1 className='txtCenter'>Text me</h1>
-                <form className="flex flex__column">
-                    <input type="text" placeholder="Name" className='input' />
-                    <input type="text" placeholder="Email" className='input' />
-                    <textarea name="" placeholder="Message" className='input input__area'></textarea>
-                    <button className='btn'>Send</button>
-                </form>
-            </section>
+            <TextMe />
 
         </>
     )
