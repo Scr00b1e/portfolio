@@ -8,10 +8,10 @@ const TextMe: React.FC = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_uc96q1y',
-            'template_4kwkd9q',
+            `${import.meta.env.VITE_SERVICE}`,
+            `${import.meta.env.VITE_TEMPLATE}`,
             form.current || 'null',
-            'hgNI-SxhvUqm1sRW7')
+            `${import.meta.env.VITE_KEY}`)
             .then((result) => {
                 console.log(result.text);
                 e.target.reset()
