@@ -4,7 +4,7 @@ import '../styles/projItem.scss'
 type ProjProps = {
     name: string
     body: string
-    link: string
+    link?: any
     lang: string
     img: string
     repo: string
