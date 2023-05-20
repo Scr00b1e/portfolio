@@ -1,0 +1,61 @@
+//components
+.view {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 10px;
+
+    background: rgba(#fff, .2);
+    border-radius: 10px;
+}
+
+.words {
+    width: 100%;
+    margin: 50px 0;
+    padding: 20px 10px;
+    background: rgba(#b3c7f6, .4);
+    border-radius: 10px;
+
+    &__mini {
+        @media (max-width: 768px) {}
+
+        h1 {
+            @media (max-width: 768px) {
+                font-size: 20px;
+            }
+        }
+
+        p {
+            @media (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.projects {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+
+    background: rgba(#fff, .2);
+    border-radius: 10px;
+}
+
+.info-item {
+    text-align: center;
+    height: 90px;
+    margin: 0 10px;
+    padding: 10px;
+
+    background: rgba(#5b5b5b, .3);
+    border-radius: 10px;
+
+    p {
+        line-height: 1;
+    }
+}
+
+.blog {
+    height: 80vh;
+}

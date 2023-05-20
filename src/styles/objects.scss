@@ -1,0 +1,89 @@
+.mini-container {
+    width: 100%;
+    max-width: 1070px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main {
+    padding-top: 70px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__column {
+        flex-direction: column;
+    }
+
+    &__between {
+        justify-content: space-between;
+    }
+
+    &__wrap {
+        flex-wrap: wrap;
+    }
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px rgba(#000, .4);
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 5px 0;
+
+    background: rgba(#fff, .3);
+    border: 1px #000 solid;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: all .3 ease-in-out;
+
+    &:hover {
+        background: #fff;
+    }
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+.input {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px #fff solid;
+
+    &__area {
+        max-width: 300px;
+        min-width: 300px;
+        max-height: 100px;
+        min-height: 100px;
+        outline: none;
+
+        @media (max-width: 768px) {
+            max-width: 200px;
+            min-width: 200px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        width: 200px;
+        font-size: 14px;
+    }
+}
+
+.title__little {
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}

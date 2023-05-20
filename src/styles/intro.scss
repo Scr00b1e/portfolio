@@ -17,15 +17,40 @@
         h1 {
             font-size: 32px;
             line-height: 1;
+
+            @media (max-width: 768px) {
+                font-size: 28px;
+            }
         }
 
         p {
             margin: 5px 0;
             font-size: 20px;
+
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
         }
     }
 
     &__img {
         border-radius: 50%;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1115px) {
+        padding: 0 200px;
+        min-height: 400px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 0 100px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 0 20px;
     }
 }

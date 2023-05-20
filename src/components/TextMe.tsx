@@ -22,13 +22,13 @@ const TextMe: React.FC = () => {
 
     return (
         <section className="view shadow">
-            <h1 className='txtCenter'>Text me</h1>
+            <h1 className='txtCenter title__little'>Text me</h1>
             <form className="flex flex__column" ref={form} onSubmit={sendEmail}>
                 <input type="text" placeholder="Name" className='input' name="user_name" />
                 <input type="text" placeholder="Email" className='input' name="user_email" />
                 <textarea name="message" placeholder="Message" className='input input__area'></textarea>
                 {/* <button className='btn'>Send</button> */}
-                <input type="submit" className='btn' value={'Send'} />
+                <input type="submit" className='btn title__little' value={'Send'} />
             </form>
         </section>
     )

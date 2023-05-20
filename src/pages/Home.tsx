@@ -13,7 +13,7 @@ const Home: React.FC = () => {
             <Intro />
 
             <section className='words shadow'>
-                <div>
+                <div className='words__mini'>
                     <h1>Young adventure seeker</h1>
                     <p>I'm just enjoy to work with frontend. So i'm good in React, Vue and Next.js. I also know how to work with tailwindcss. I always trynna increase my knowledge and would love to work with new technologies, stacks etc.</p>
                 </div>
@@ -21,8 +21,8 @@ const Home: React.FC = () => {
 
             <section>
                 <div className="view shadow">
-                    <h1>Languages</h1>
-                    <div className="flex">
+                    <h1 className='title__little'>Languages</h1>
+                    <div className="flex flex__wrap">
                         {
                             languages.map((obj, i) => (
                                 <LangsItem {...obj} key={i} />
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
             </section>
 
             <section className="projects txtCenter">
-                <h1>Projects</h1>
+                <h1 className='title__little'>Projects</h1>
                 <div className="flex flex__wrap">
                     {
                         projects.map((obj, i) => (
